@@ -24,7 +24,7 @@ const AddFriend = (props) => {
     axiosWithAuth()
       .post("api/friends", friend)
       .then((res) => {
-        console.log(res, "res inside add FRIEND AXIOS");
+        console.log(res, "res inside add FRs IEND AXIOS");
         setFriendData(res.data);
         console.log(friendData, "get friend data worked");
       })
